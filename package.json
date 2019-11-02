@@ -1,0 +1,33 @@
+{
+  "name": "scroll-lines",
+  "version": "0.1.0",
+  "description": "Show lines of text scrolling on terminal like an electronic stock ticker tape",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/src/index.js",
+    "build": "tsc",
+    "dev": "clear && ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "lint": "eslint --ext .ts,.js .",
+    "prepublishOnly": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edkedk99/scroll-lines.git"
+  },
+  "author": "edkedk99",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/edkedk99/scroll-lines/issues"
+  },
+  "homepage": "https://github.com/edkedk99/scroll-lines#readme",
+  "dependencies": {
+    "log-update": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "typescript": "^3.6.4"
+  }
+}

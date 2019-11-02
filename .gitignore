@@ -1,3 +1,6 @@
+
+dist/*
+play/*
 # Logs
 logs
 *.log
