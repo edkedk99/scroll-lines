@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "description": "Show lines of text scrolling on terminal like an electronic stock ticker tape",
   "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node ./dist/src/index.js",
     "build": "tsc",
     "dev": "clear && ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "lint": "eslint --ext .ts,.js .",
-    "prepublishOnly": "build"
+    "prepublishOnly": "npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
