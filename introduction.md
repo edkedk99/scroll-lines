@@ -23,6 +23,6 @@ scroll(text, 100)
 
 The result will be shown on the console
 
-![scroll-lines.gif](./scroll-lines.gif)
+![scroll-lines](https://github.com/edkedk99/scroll-lines/raw/master/scroll-lines.gif)
 
 

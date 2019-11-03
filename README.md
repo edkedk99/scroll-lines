@@ -34,7 +34,7 @@ scroll(text, 100)
 
 The result will be shown on the console
 
-![scroll-lines.gif][5]
+![scroll-lines][5]
 
 
 ## scroll
@@ -62,7 +62,7 @@ Returns **void**
 
 [4]: #examples
 
-[5]: ./scroll-lines.gif
+[5]: https://github.com/edkedk99/scroll-lines/raw/master/scroll-lines.gif
 
 [6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
