@@ -1,6 +1,6 @@
 {
   "name": "scroll-lines",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Show lines of text scrolling on terminal like an electronic stock ticker tape",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
