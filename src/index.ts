@@ -2,13 +2,12 @@ import { stdout } from 'process'
 import logUpdate from 'log-update'
 
 /** Print multiple automatic horizontal scroll text to terminal
- * /** module:myModule.hScroll
  * @param {string} textArr - Each item is a line that will scroll repeatedly
  * @param {number} [speed=100] - The speed in ms for the animation
  * @returns {void}
  * @example hscroll(['a large text'], ['another large text'])
  */
-export default function hScroll(textArr: string[], speed = 100): void {
+export function scroll(textArr: string[], speed = 100): void {
   const emptyArr: string[] = Array(stdout.columns).fill(' ')
   let textData = textArr.map(text => {
     const content = ' => ' + text

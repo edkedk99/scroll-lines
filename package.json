@@ -1,6 +1,6 @@
 {
   "name": "scroll-lines",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Show lines of text scrolling on terminal like an electronic stock ticker tape",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -10,7 +10,8 @@
     "build": "tsc",
     "dev": "clear && ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "lint": "eslint --ext .ts,.js .",
-    "prepublishOnly": "npm run lint && npm run build"
+    "doc": "documentation build ./dist/src/index.js -f md -o ./docs/README.md --config ./docs/documentation.yml",
+    "prepublishOnly": "npm run lint && npm run build && npm run doc"
   },
   "repository": {
     "type": "git",
