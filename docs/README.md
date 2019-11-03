@@ -2,12 +2,12 @@
 
 ### Table of Contents
 
--   [introduction][1]
+-   [Introduction][1]
 -   [scroll][2]
     -   [Parameters][3]
     -   [Examples][4]
 
-## introduction
+## Introduction
 
 ## Introduction
 
