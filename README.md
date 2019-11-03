@@ -34,7 +34,7 @@ scroll(text, 100)
 
 The result will be shown on the console
 
-![scroll-lines][5]
+![scroll-lines.gif][5]
 
 
 ## scroll
