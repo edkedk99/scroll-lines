@@ -1,6 +1,6 @@
 Show information on console without using a lot of real estate screen by letting it scroll horizontally like those electronic stock ticker tape
 
-## How to use it
+### How to use it
 
 Install the package
 
