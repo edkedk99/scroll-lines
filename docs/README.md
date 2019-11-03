@@ -40,7 +40,6 @@ The result will be shown on the console
 ## scroll
 
 Print multiple automatic horizontal scroll text to terminal
-/\*\* module:myModule.hScroll
 
 ### Parameters
 
