@@ -30,6 +30,7 @@
     "@types/node": "^12.12.5",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
     "typescript": "^3.6.4"
   }
 }
