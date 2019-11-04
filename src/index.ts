@@ -5,7 +5,7 @@ import logUpdate from 'log-update'
  * @param {string} textArr - Each item is a line that will scroll repeatedly
  * @param {number} [speed=100] - The speed in ms for the animation
  * @returns {void}
- * @example hscroll(['a large text'], ['another large text'])
+ * @example scroll(['a large text'], ['another large text'])
  */
 export function scroll(textArr: string[], speed = 100): void {
   const emptyArr: string[] = Array(stdout.columns).fill(' ')
