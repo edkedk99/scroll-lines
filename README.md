@@ -49,7 +49,7 @@ Print multiple automatic horizontal scroll text to terminal
 ### Examples
 
 ```javascript
-hscroll(['a large text'], ['another large text'])
+scroll(['a large text'], ['another large text'])
 ```
 
 Returns **void** 
